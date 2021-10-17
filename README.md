@@ -6,6 +6,25 @@ Internet retail, also known as **e-commerce**, these days is very popular. The s
 
 This assignment is just a back end for an e-commerce site. Here I configured a working Express.js API to use Sequelize to interact with a MySQL database and used postman to test the API.
 
+## Getting Started with Model View Controler (MVC)
+
+This project is only a back end for an e-commerce site.
+
+## Available scripts
+Clone the repository to your project folderto make yours, and do the following:
+
+This will install the node modules to your project folder.
+
+**npm init** / **npm i**
+
+Now, just run the following command in your terminal:
+
+**npm run seed**
+
+Then, the following:
+
+**nodemon ./server.js** / **npm run start**
+
 ## Mock-Up
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in postman:
@@ -18,6 +37,8 @@ The following animation shows the application's GET routes to return a single ca
 
 The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Postman:
 
-![In Postman, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/gif/)
+![In Postman, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/gif/Delete-And-Update-Category.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Postman.
+My walkthrough video also shows the POST, PUT, and DELETE routes for products and tags being tested in Postman.
+
+![In Postman, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/gif/E-Commerce-Backend.gif)
