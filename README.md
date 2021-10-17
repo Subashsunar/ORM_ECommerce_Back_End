@@ -25,6 +25,8 @@ Then, the following:
 
 **nodemon ./server.js** / **npm run start**
 
+## You have to make sure, if you have POSTMAN or INSOMNIA to test the API.
+
 ## Mock-Up
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in postman:
